@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import pandas as pd
 import base64
-import plotly.graph_objects as go
+import plotly.graph_object as go
 
 # ---------- PAGE CONFIG ----------
 st.set_page_config(
@@ -148,5 +148,6 @@ st.line_chart(compare_df.set_index("Feature"))
 
 st.markdown("---")
 st.caption("Machine Learning Mini Project | House Building Price Prediction")
+
 
 st.markdown("</div>", unsafe_allow_html=True)
